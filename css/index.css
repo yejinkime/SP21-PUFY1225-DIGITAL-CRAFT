@@ -1,0 +1,68 @@
+/*selector{
+	property:value;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+h1
+{
+text-align: center;
+border: none;
+padding: 0px 20px;
+font-family: 'Poppins', sans-serif;
+font-weight: "600";
+}
+
+#center
+{
+	border-image-width: center;
+	padding: 20px 10px;
+	background-color: #fafafa;
+}
+
+.description
+{
+text-align: center;
+border: none;
+padding: 0px 20px;
+font-family: 'Poppins', sans-serif;
+font-weight: "600";
+}
+
+h2
+{
+text-align: center;
+border: none;
+padding: 0px 20px;
+font-family: 'Poppins', sans-serif;
+font-weight: "600";
+}
+
+.Week1
+{
+text-align: center;
+border: none;
+font-family: 'Poppins', sans-serif;
+font-weight: "500";
+color: #228B22;
+}
+
+.Week2
+{
+text-align: center;
+border: none;
+font-family: 'Poppins', sans-serif;
+font-weight: "500";
+color: #228B22;
+}
+
+
+ul
+{
+	text-align: center;
+border: none;
+padding: 0px 20px;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: "600";
+}
