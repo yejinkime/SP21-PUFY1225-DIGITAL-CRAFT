@@ -1,0 +1,81 @@
+/*selector{
+	property:value;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Syncopate:wght@700&display=swap');
+
+#center
+{
+	float: none;
+  	position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#left a 
+{
+	 float: left;
+	 color: #000000;
+	 font-family: 'Syncopate', sans-serif; 
+	 text-align: center;
+	 top: 7%;
+	 padding: 20px 20px;
+	 text-decoration: none;
+	 font-size: 12px;
+}
+
+#right a 
+{
+	 float: right;
+	 color: #000000;
+	 font-family: 'Syncopate', sans-serif; 
+	 text-align: center;
+	 top: 7%;
+	 padding: 20px 20px;
+	 text-decoration: none;
+	 font-size: 12px;
+}
+
+#icons button
+{ 
+  background-color: #000000;
+  border: none;
+  padding: 25px 25px;
+  border-radius: 25px;
+}
+
+footer
+{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 12px;
+}
+
+/*	background-color: #FF69B4;
+}
+a{
+	color: rgb(255, 255, 0, 50);
+	font-family: sans-serif;
+}
+h2{
+	color: teal;
+	font-family: "Roboto";
+	font-weight: "100";
+}
+#first-section{
+	background-color: #FFFFFF;
+}
+.homeworks{
+	background-color: #00FF00;
+}
+h1{
+	color: teal;
+	font-family: "Roboto";
+	font-weight: "100";
+}
+#first-section h1{
+	color: orange;
+	font-family: "Roboto";
+	font-weight: "300";
+}
+*/
