@@ -4,82 +4,122 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+body
+{
+	background-color: #FCF5EF;
+}
 
 h1
 {
-text-align: center;
+text-align: left;
 border: none;
-padding: 0px 20px;
+padding: 10px 80px;
 font-family: 'Poppins', sans-serif;
 font-weight: "600";
+ color: #FE7235;
 }
 
-#center
-{
-	border-image-width: center;
-	padding: 20px 10px;
-	background-color: #fafafa;
+/* Sourcee from w3schools.com */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
 }
+
+.topnav a {
+  float: left;
+  color: #FE7235;
+  text-align: center;
+  padding: 10px 65px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: "600";
+}
+
+.topnav a:hover {
+  background-color: #FE7235;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 
 .description
 {
-text-align: center;
+text-align: left;
 border: none;
-padding: 0px 20px;
+padding: 20px 80px;
 font-family: 'Poppins', sans-serif;
 font-weight: "600";
-}
+	background-color: #FCF5EF;
 
-h2
-{
-text-align: center;
-border: none;
-padding: 0px 20px;
-font-family: 'Poppins', sans-serif;
-font-weight: "600";
 }
 
 .Week1
 {
-text-align: center;
+text-align: left;
 border: none;
+padding: 10px 80px;
+
 font-family: 'Poppins', sans-serif;
 font-weight: "500";
-color: #228B22;
+color: #FE7235;
 }
 
 .Week2
 {
-text-align: center;
+text-align: left;
 border: none;
+padding: 10px 80px;
+
 font-family: 'Poppins', sans-serif;
 font-weight: "500";
-color: #228B22;
+color: #FE7235;
 }
 
 .Week2
 {
-text-align: center;
+text-align: left;
 border: none;
+padding: 10px 80px;
+
 font-family: 'Poppins', sans-serif;
 font-weight: "500";
-color: #228B22;
+color: #FE7235;
 }
 
 .Week3
 {
-text-align: center;
+text-align: left;
 border: none;
+padding: 10px 80px;
+
 font-family: 'Poppins', sans-serif;
 font-weight: "500";
-color: #228B22;
+color: #FE7235;
+}
+
+.Week4
+{
+text-align: left;
+border: none;
+padding: 10px 80px;
+
+font-family: 'Poppins', sans-serif;
+font-weight: "500";
+color: #FE7235;
 }
 
 ul
 {
-text-align: center;
+text-align: left;
 border: none;
-padding: 0px 20px;
+padding: 10px 80px;
 font-family: 'Noto Sans KR', sans-serif;
 font-weight: "600";
+background-color: white;
 }
