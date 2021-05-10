@@ -52,9 +52,9 @@ function draw() {
     yPos = random(0,windowHeight);
     
     //randomly positioned stars
-    for(let j=0; j<random(200);j++){ 
+    for(let j=0; j<random(100,200);j++){ 
           fill(stars,stars,stars);
-          ellipse(xPos,yPos,random(1,4));
+          ellipse(xPos,yPos,random(1,5));
           }    
   }
 
