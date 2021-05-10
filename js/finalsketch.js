@@ -7,7 +7,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
   background("black");
-  frameRate(30);
+  frameRate(25);
 }
 
 function draw() {
@@ -25,7 +25,7 @@ function draw() {
     let yPos = random(0,windowHeight);
    
     let diam= random(40,400);
-    
+
     for(let i=0; i<random(200);i++)
         { 
           //randomly positioned planets
@@ -39,17 +39,25 @@ function draw() {
           textSize(30);
           text(words[index], xPos-diam, yPos-diam);
         }
-    
-      // make blurrly space-like background
+
+    // make blurrly space-like background
     for (let k = 0; k < width; k+=15) {
     for (let l = 0; l < height; l+=15){
     ellipse(k, l, 30, 30);
     fill(0, random(0, 50), random(0, 150), 8);
-    
     }
+    }
+
+    xPos = random(0,windowWidth);
+    yPos = random(0,windowHeight);
+    
+    //randomly positioned stars
+    for(let j=0; j<random(200);j++){ 
+          fill(stars,stars,stars);
+          ellipse(xPos,yPos,random(1,4));
+          }    
   }
 
-}
 
 function mousePressed() {
   
