@@ -40,14 +40,6 @@ function draw() {
           text(words[index], xPos-diam, yPos-diam);
         }
 
-    // make blurrly space-like background
-    for (let k = 0; k < width; k+=15) {
-    for (let l = 0; l < height; l+=15){
-    ellipse(k, l, 30, 30);
-    fill(0, random(0, 50), random(0, 150), 8);
-    }
-    }
-
     xPos = random(0,windowWidth);
     yPos = random(0,windowHeight);
     
@@ -56,6 +48,15 @@ function draw() {
           fill(stars,stars,stars);
           ellipse(xPos,yPos,random(1,5));
           }    
+
+    // make blurrly space-like background
+    for (let k = 0; k < width; k+=15) {
+    for (let l = 0; l < height; l+=15){
+    ellipse(k, l, 30, 30);
+    fill(0, random(0, 50), random(0, 150), 8);
+    }
+    }
+
   }
 
 
